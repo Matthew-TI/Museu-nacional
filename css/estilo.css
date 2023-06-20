@@ -1,0 +1,205 @@
+/* Estrutura geral do site */
+
+body {
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #227115;
+    transition: all 0.8s;
+}
+
+/* style logo */
+
+#logo h1 {
+    float: left;
+}
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+
+/* Style barra de navegação */
+
+header {
+    padding: 15px 0px;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    margin-right: 23px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* Estilização area principal + area lateral */
+
+#conteudo {
+    width: 710px;
+    float: left;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+/* Estilização area lateral */
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+
+/* Estilização do rodape */
+
+footer {
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+
+footer p a {
+    padding: 2px 10px;
+}
+
+footer #lin a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* Estilização de formulario */
+
+input {
+    height: 20px;
+    width: 99px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+input.botao:hover {
+    background: #7c755a;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+/* Estilização da galeria */
+
+section#galeria a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0px 0px 20px;
+}
+
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#galeria img:hover {
+    box-shadow: 0px 0px 3px 2px #86521a;
+    transition: all 0.8s;
+}
+
+section#galeria {
+    padding: 0px 27px 0px 27px;
+}   
